@@ -151,7 +151,7 @@ final class FeedzillaDownloadService implements StopableApp, LoadFeedReceiver {
 	}
 
 	@Override
-	public void newArticle(Category newCategory, Subcategory newSubcategory, Article newArticle) {
+	public void newArticle(Category newCategory, Subcategory newSubcategory, Article newArticle) throws IOException {
 		final FeedzillaFileCategory category = createFeedzillaCategory(newCategory);
 		final FeedzillaFileSubcategory subcategory = createFeedzillaSubcategory(category, newSubcategory);
 		createFeedzillaArticle(subcategory, newArticle);
@@ -168,7 +168,7 @@ final class FeedzillaDownloadService implements StopableApp, LoadFeedReceiver {
 		return hashStorage.createFeedzillaSubcategory(category, result);
 	}
 
-	private void createFeedzillaArticle(FeedzillaFileSubcategory subcategory, Article from) {
+	private void createFeedzillaArticle(FeedzillaFileSubcategory subcategory, Article from) throws IOException {
 		final FeedzillaFileArticle result = new FeedzillaFileArticle(0, subcategory, from.getAuthor(), from.getPublishDate());
 		result.setSource(from.getSource());
 		result.setSourceUrl(from.getSourceUrl());
