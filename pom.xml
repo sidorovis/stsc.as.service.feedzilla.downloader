@@ -15,38 +15,38 @@
 	</properties>
 
 	<repositories>
-	    <repository>
-    	  	<id>stsc-common-mvn-repo</id>
-     		<url>https://raw.github.com/sidorovis/stsc/stsc.common/</url>
-   		</repository>
-	    <repository>
-    	  	<id>stsc-signals-mvn-repo</id>
-     		<url>https://raw.github.com/sidorovis/stsc/stsc.signals/</url>
-   		</repository>
-	    <repository>
-    	  	<id>stsc-algorithms-common-mvn-repo</id>
-     		<url>https://raw.github.com/sidorovis/stsc/stsc.algorithms.common/</url>
-   		</repository>
-	    <repository>
-    	  	<id>stsc-algorithms-equity-test-mvn-repo</id>
-     		<url>https://raw.github.com/sidorovis/stsc/stsc.algorithms.equity.test/</url>
-   		</repository>
-	    <repository>
-    	  	<id>stsc-storage-mvn-repo</id>
-     		<url>https://raw.github.com/sidorovis/stsc/stsc.storage/</url>
-   		</repository>
-	    <repository>
-    	  	<id>stsc-news-feedzilla-storage-mvn-repo</id>
-     		<url>https://raw.github.com/sidorovis/stsc/stsc.news.feedzilla.storage/</url>
-   		</repository>
-	    <repository>
-    	  	<id>stsc-news-feedzilla-downloader-mvn-repo</id>
-     		<url>https://raw.github.com/sidorovis/stsc/stsc.news.feedzilla.downloader/</url>
-   		</repository>
-	    <repository>
-    	  	<id>stsc-database-storage-mvn-repo</id>
-     		<url>https://raw.github.com/sidorovis/stsc/stsc.database.storage/</url>
-   		</repository>
+		<repository>
+			<id>stsc-common-mvn-repo</id>
+			<url>https://raw.github.com/sidorovis/stsc/stsc.common/</url>
+		</repository>
+		<repository>
+			<id>stsc-signals-mvn-repo</id>
+			<url>https://raw.github.com/sidorovis/stsc/stsc.signals/</url>
+		</repository>
+		<repository>
+			<id>stsc-algorithms-common-mvn-repo</id>
+			<url>https://raw.github.com/sidorovis/stsc/stsc.algorithms.common/</url>
+		</repository>
+		<repository>
+			<id>stsc-algorithms-equity-test-mvn-repo</id>
+			<url>https://raw.github.com/sidorovis/stsc/stsc.algorithms.equity.test/</url>
+		</repository>
+		<repository>
+			<id>stsc-storage-mvn-repo</id>
+			<url>https://raw.github.com/sidorovis/stsc/stsc.storage/</url>
+		</repository>
+		<repository>
+			<id>stsc-news-feedzilla-storage-mvn-repo</id>
+			<url>https://raw.github.com/sidorovis/stsc/stsc.news.feedzilla.storage/</url>
+		</repository>
+		<repository>
+			<id>stsc-news-feedzilla-downloader-mvn-repo</id>
+			<url>https://raw.github.com/sidorovis/stsc/stsc.news.feedzilla.downloader/</url>
+		</repository>
+		<repository>
+			<id>stsc-database-storage-mvn-repo</id>
+			<url>https://raw.github.com/sidorovis/stsc/stsc.database.storage/</url>
+		</repository>
 	</repositories>
 
 	<build>
@@ -95,7 +95,7 @@
 		<dependency>
 			<groupId>stsc</groupId>
 			<artifactId>stsc.database.storage</artifactId>
-			<version>0.0.17-PROSEP</version>
+			<version>0.0.18-WEBINTERFACE</version>
 		</dependency>
 		<dependency>
 			<groupId>stsc</groupId>
